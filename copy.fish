@@ -12,4 +12,4 @@ if test "$(ls ~/.copy)" != ""
   rm -rf ~/.copy/*
 end
 
-cp $filename ~/.copy
+cp -r $filename ~/.copy
